@@ -1,4 +1,4 @@
-# Stylish To-Do App ✅
+# CP To-Do App ✅
 
 A modern to-do list web app built with **HTML**, **CSS**, and **JavaScript**, featuring sleek design and automated end-to-end testing using **Appium + WebdriverIO**.
 
