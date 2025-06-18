@@ -1,0 +1,88 @@
+/* Reset and layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('images/apr17-remys-world-1000-0-1493469520.jpg');
+  background-repeat: repeat;     /* Tiles the image */
+  background-size: auto;         /* Keeps original image size */
+  backdrop-filter: blur(3px);    /* Optional visual effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+/* App container */
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+/* Header */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input and button */
+input {
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 14px;
+  background-color: #5f9ea0;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b8688;
+}
+
+/* Task list */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Task buttons */
+li button {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+li button:hover {
+  opacity: 0.7;
+}
